@@ -1,24 +1,47 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Простой блог, созданный с использованием Ruby on Rails.
 
-Things you may want to cover:
+## Описание
 
-* Ruby version
+Этот проект представляет собой веб-приложение блога, построенное на фреймворке Ruby on Rails. Он обеспечивает базовый функционал для создания, редактирования и удаления записей блога.
 
-* System dependencies
+## Требования
 
-* Configuration
+Для запуска этого приложения вам понадобится Ruby и Ruby on Rails. Убедитесь, что они установлены на вашем компьютере.
 
-* Database creation
+## Установка
 
-* Database initialization
+1. Склонируйте репозиторий:
 
-* How to run the test suite
+   git clone https://github.com/yaIlyaa/Blog.git
+   cd Blog
 
-* Services (job queues, cache servers, search engines, etc.)
+2. Установите необходимые гемы:
 
-* Deployment instructions
+   bundle install
 
-* ...
+3. Создайте базу данных и примените миграции:
+
+   rails db:create
+
+   rails db:migrate
+
+## Запуск
+
+1. Перейдите в каталог проекта:
+   
+   cd Blog
+
+2. Запустите сервер:
+
+   rails server
+   
+Приложение будет доступно по адресу http://localhost:3000 в вашем веб-браузере.
+
+## Использование
+
+1. Создавайте, редактируйте и удаляйте записи блога через интерфейс приложения.
+2. Добавляйте новые записи.
+3. Редактируйте или удаляйте свои записи.
+4. Добавляйте комментарии к записям.
