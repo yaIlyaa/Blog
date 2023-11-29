@@ -15,6 +15,7 @@
 1. Склонируйте репозиторий:
 
    git clone https://github.com/yaIlyaa/Blog.git
+
    cd Blog
 
 2. Установите необходимые гемы:
